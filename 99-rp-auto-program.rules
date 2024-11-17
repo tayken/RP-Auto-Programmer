@@ -1,0 +1,2 @@
+KERNEL=="sd*1", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0003", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="rp-auto-program@.service"
+KERNEL=="sd*1", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="000f", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="rp-auto-program@.service"

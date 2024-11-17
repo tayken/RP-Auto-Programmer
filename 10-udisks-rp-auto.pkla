@@ -1,0 +1,4 @@
+[Give RP Auto Programmer User Mount Permission]
+Identity=unix-user:<user>
+Action=org.freedesktop.udisks2.filesystem-mount;org.freedesktop.udisks2.filesystem-mount-other-seat
+ResultAny=yes

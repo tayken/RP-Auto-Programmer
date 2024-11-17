@@ -1,0 +1,6 @@
+[Unit]
+Description=Program RP device attached to '%I'
+
+[Service]
+User=<user>
+ExecStart=<path>/rp-program-shim.sh '%I'
